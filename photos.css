@@ -1,0 +1,90 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Vert */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+h1{
+    font-style:italic;
+    font-family:Monospace;
+    text-align: center;
+}
+.active {
+    background-color: #04AA6D;
+}
+h2 {
+    text-align: center;
+    background-color: #333;
+    color: #FFFFFF
+}
+.adresse {
+    height: 20px;
+    width: 20%;
+    background-color: powderblue;
+    margin-bottom: 3%;
+    margin-left: 40%;
+    margin-right: 30%;
+    border: 1px solid black;
+
+}
+.question {
+    height: 20px;
+    width: 30%;
+    background-color: powderblue;
+    margin-left: 35%;
+    margin-right: 30%;
+    margin-bottom: 3%;
+    border: 1px solid black;
+
+}
+.dev_question {
+    height: 150px;
+    width: 50%;
+    background-color: powderblue;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+    vertical-align: top;
+    box-sizing: border-box;
+    resize: none;
+}
+.error {
+    border: 2px solid red;
+}
+button{
+    margin-left: 48%;
+}
+
